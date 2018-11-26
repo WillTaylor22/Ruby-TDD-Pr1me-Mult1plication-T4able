@@ -20,7 +20,7 @@ to install them.
 
 ## The Solution
 
-I used a Sieve of Eratosthenes algorithm to quickly generate primes, and displayed this in a simple table.
+A Sieve of Eratosthenes algorithm quickly generate primes. A seperate table builder object prints the multiplication table to console.
 
 ### Installation
 
