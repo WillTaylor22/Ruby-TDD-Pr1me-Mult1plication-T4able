@@ -1,12 +1,10 @@
-## Prints a mult1pl1c4t1on t4ble of the f1rst N pr1me num8ers
+# Multipl1cation Ta8le of the First N Pr1mes
 
-A quick code challenge for a London-based Fintech. I have obfuscated some words in this readme to prevent the code being find-able by other applicants which would spoil the test.
+This script was a code challenge for a London-based Fintech. I have obfuscated some words in this readme to prevent the code being find-able by other applicants, spoiling the challenge.
 
 This shows a test-driven (TDD) approach. The code is clean, easily human-readable, and has been compartmentalised into sensible classes and methods. The algorithm chosen is one of the fastest available for solving this type of problem.
 
--------
-
-# The Challenge
+## The Challenge
 
 * The program must run from the command line and print a table to
 STDOUT .
@@ -20,18 +18,16 @@ option is not used, the table should contain the first 10 primes by default.
 * If you’re using external dependencies please specify those dependencies and how
 to install them.
 
-------
-
-# The Solution
+## The Solution
 
 I used a Sieve of Eratosthenes algorithm to quickly generate primes, and displayed this in a simple table.
 
-## Installation
+### Installation
 
-To install, run:
+To install, clone this repository and from the terminal run:
 `$ bundle install`
 
-To print the multiplaction table of the first N primes:
+To print the table of the first N pr1mes:
 `$ ruby lib/run.rb N`
 
 For example: `$ ruby lib/run.rb 4` prints
@@ -45,10 +41,14 @@ For example: `$ ruby lib/run.rb 4` prints
 
 if N is omitted, the script defaults to N=10.
 
-## Running Tests
+### Running Tests
 `$ rspec`
 
-## Automatic Test Installation
+`$ bundle exec guard` # Runs guard in terminal. Guard runs the relevant tests for a file when it is saved.
+
+### Automatic Test Installation Notes
+
+Note to self - does not need to be done now
 
 https://github.com/guard/guard
 
@@ -58,9 +58,7 @@ https://github.com/guard/guard-rspec
 
 `$ bundle exec guard init rspec` # Install rspec plugin for guard
 
-`$ bundle exec guard` # Runs guard in terminal. This runs the relevant tests on when a file is saved.
+### Primes Algorithm Notes
 
-
-## Primes algorithm
 https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
 https://gist.github.com/loganhasson/8937903
