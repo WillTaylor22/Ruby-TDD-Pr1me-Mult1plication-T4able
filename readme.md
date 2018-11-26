@@ -1,4 +1,4 @@
-## A program that prints out a mult1pl1c4t1on table of the f1rst N pr1me num8ers.
+## A program that prints out a mult1pl1c4t1on t4ble of the f1rst N pr1me num8ers.
 
 This was the code challenge for a London-based Fintech. It took about 1.5 hours to complete, though doing it again would take about 20 minutes.
 
