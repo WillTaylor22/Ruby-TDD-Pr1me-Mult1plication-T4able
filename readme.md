@@ -1,8 +1,6 @@
 ## A program that prints out a mult1pl1c4t1on t4ble of the f1rst N pr1me num8ers.
 
-This was the code challenge for a London-based Fintech. It took about 1.5 hours to complete, though doing it again would take about 20 minutes.
-
-"1337"-speak added to prevent this being Google find-able by any other sneaky applicants ;)
+A quick code challenge for a London-based Fintech. I have obfuscated some key words to prevent the code being find-able by any other applicants, spoiling the test.
 
 -------
 
